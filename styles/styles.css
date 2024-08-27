@@ -112,7 +112,10 @@ h6 {
   scroll-margin: 40px;
 }
 
-h1 { font-size: var(--heading-font-size-xxl); }
+h1 { 
+  font-size: var(--heading-font-size-xxl);
+  color:#1d3ecf;
+ }
 h2 { font-size: var(--heading-font-size-xl); }
 h3 { font-size: var(--heading-font-size-l); }
 h4 { font-size: var(--heading-font-size-m); }
@@ -251,7 +254,11 @@ main > .section:first-of-type {
 /* section metadata */
 main .section.light,
 main .section.highlight {
-  background-color: yellow;
+  background-color: rgb(53, 194, 53);
   margin: 0;
   padding: 40px 0;
+}
+
+#welcome-to-world{
+  color:red;
 }
