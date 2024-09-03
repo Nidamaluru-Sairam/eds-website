@@ -262,3 +262,6 @@ main .section.highlight {
 #welcome-to-world{
   color:red;
 }
+.light-gray{
+  background-color: aqua;
+}
